@@ -315,7 +315,7 @@
 
     <!-- contact form -->
     <section>
-        <div class="container">
+        <div class="container d-flex flex-column align-items-center col-4">
             <h1 class="text-align-center">
                 Contact me
             </h1>
@@ -323,22 +323,22 @@
                 If you have an application you are interested in developing, a feature that you need built or a project
                 that needs coding. I’d love to help with it
             </p>
-            <form action="https://formspree.io/f/xpznwqll" method="post">
+            <form class="container-fluid" action="https://formspree.io/f/xpznwqll" method="post">
                 <ul class="form__list list-unstyled">
-                    <li class="form__list1">
-                        <input class="poppins form__list__style" name="name" type="text" id="Firstname"
+                    <li class="form__list1 py-2">
+                        <input class="poppins form__list__style col-12" name="name" type="text" id="Firstname"
                             placeholder="Najash" maxlength="30" aria-label="User Name" required />
                     </li>
-                    <li>
-                        <input class="poppins form__list__style" type="email" name="email" id="email"
+                    <li class="py-2">
+                        <input class="poppins form__list__style col-12" type="email" name="email" id="email"
                             placeholder="email@something.com" aria-label="Email" required />
                     </li>
-                    <li class="form__list2">
-                        <textarea class="poppins form__list__style" name="textarea__form" id="textarea__form" cols="30"
+                    <li class="form__list2 py-2">
+                        <textarea class="poppins form__list__style col-12" name="textarea__form" id="textarea__form" cols="30"
                             rows="10" maxlength="500" aria-label="Enter Message" placeholder="Write your message here"
                             required></textarea>
                     </li>
-                    <li class="form__button__li">
+                    <li class="form__button__li d-flex flex-column align-items-center">
                         <button type="submit" class="form__button poppins" aria-label="Get In Touch">Get In
                             Touch</button>
                     </li>
